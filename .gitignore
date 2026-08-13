@@ -1,0 +1,31 @@
+# Vivado project junk
+*.jou
+*.log
+*.str
+*.zip
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/*.xml
+*.gen/
+*.hbs
+vivado*.jou
+vivado*.log
+webtalk*.log
+webtalk*.jou
+*.wdb
+*.pb
+*.dcp
+*.bit
+*.ltx
+*.mmi
+*.dmp
+
+# Editor/OS junk
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp

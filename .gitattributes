@@ -1,0 +1,16 @@
+# Normalize line endings for all text files — avoids LF/CRLF noise in diffs
+# regardless of the OS used to clone/edit (Windows, Linux, macOS).
+* text=auto
+
+# HDL sources — force LF explicitly (most EDA tools/Linux CI expect LF)
+*.sv text eol=lf
+*.svh text eol=lf
+*.v text eol=lf
+*.vhd text eol=lf
+
+# Binary files — never touch line endings
+*.png binary
+*.pptx binary
+*.pdf binary
+*.dcp binary
+*.bit binary
