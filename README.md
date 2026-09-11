@@ -1,6 +1,6 @@
 # TinyML Vibration Anomaly Detector — HDL Accelerator
 
-> ⚠️ **Draft / Private repo — Work in Progress.** Developed during a summer research internship at the Instituto de Telecomunicações (IT), as the Week 4 deliverable of a 4-week accelerator-design plan. Publication pending advisor confirmation.
+> 🚧 **Work in Progress.** Developed during a summer research internship at the Instituto de Telecomunicações (IT), as the Week 4 deliverable of a 4-week accelerator-design plan.
 
 ## Overview
 A synchronous, parametrized hardware accelerator for **anomaly detection on industrial vibration sensors**, using an **autoencoder** architecture. Builds directly on the parametrized hidden-layer base from [`ANN-Hidden-Layer-HDL`](../ANN-Hidden-Layer-HDL) — same Q8.8 fixed-point philosophy, extended with a wider accumulator and a unified activation/mapping block.
