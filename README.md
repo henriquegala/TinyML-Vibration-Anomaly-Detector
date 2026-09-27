@@ -121,8 +121,8 @@ end of the run).
 Full waveform (single continuous run covering all 4 scenarios, testbench debug signals visible
 confirming `NUM_INPUTS=4`, `DATA_WIDTH=16`, `ACC_WIDTH=35`, `PIPE_LATENCY=3`, `errors=0`):
 
-![Waveform part 1](reports/waveform_part1.png)
-![Waveform part 2](reports/waveform_part2.png)
+![Waveform part 1](reports/ReLU_waveform_part1.png)
+![Waveform part 2](reports/ReLU_waveform_part2.png)
 
 ## Synthesis Results
 
